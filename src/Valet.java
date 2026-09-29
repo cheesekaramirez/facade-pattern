@@ -6,7 +6,7 @@ public class Valet implements HotelService{
     }
 
     public void pickUpVehicle(String plateNumber) {
-        System.out.printf("Parking car with the plate number %s...%n",plateNumber);
+        System.out.printf("Picking up car with the plate number %s...%n",plateNumber);
         System.out.println("Done!");
     }
 }
